@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  WeatherApp
+
+  Created by Yashin Zahar on 11.08.2022.
+  
+*/
+
+"Demo Label" = "Demo Label";
+"Temp" = "Temp";
+"Wing" = "Wing";
+"Humidity" = "Humidity";

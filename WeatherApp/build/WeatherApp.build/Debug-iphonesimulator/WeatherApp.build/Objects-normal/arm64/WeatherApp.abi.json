@@ -1,0 +1,5338 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "WeatherApp",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "MainModel",
+      "printedName": "MainModel",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "temp",
+          "printedName": "temp",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.Double?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10WeatherApp9MainModelC4tempSdSgvp",
+          "mangledName": "$s10WeatherApp9MainModelC4tempSdSgvp",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.Double?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Double",
+                      "printedName": "Swift.Double",
+                      "usr": "s:Sd"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp9MainModelC4tempSdSgvg",
+              "mangledName": "$s10WeatherApp9MainModelC4tempSdSgvg",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.Double?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Double",
+                      "printedName": "Swift.Double",
+                      "usr": "s:Sd"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp9MainModelC4tempSdSgvs",
+              "mangledName": "$s10WeatherApp9MainModelC4tempSdSgvs",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp9MainModelC4tempSdSgvM",
+              "mangledName": "$s10WeatherApp9MainModelC4tempSdSgvM",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "humidity",
+          "printedName": "humidity",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.Double?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10WeatherApp9MainModelC8humiditySdSgvp",
+          "mangledName": "$s10WeatherApp9MainModelC8humiditySdSgvp",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.Double?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Double",
+                      "printedName": "Swift.Double",
+                      "usr": "s:Sd"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp9MainModelC8humiditySdSgvg",
+              "mangledName": "$s10WeatherApp9MainModelC8humiditySdSgvg",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.Double?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Double",
+                      "printedName": "Swift.Double",
+                      "usr": "s:Sd"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp9MainModelC8humiditySdSgvs",
+              "mangledName": "$s10WeatherApp9MainModelC8humiditySdSgvs",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp9MainModelC8humiditySdSgvM",
+              "mangledName": "$s10WeatherApp9MainModelC8humiditySdSgvM",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "MainModel",
+              "printedName": "WeatherApp.MainModel",
+              "usr": "s:10WeatherApp9MainModelC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:10WeatherApp9MainModelCACycfc",
+          "mangledName": "$s10WeatherApp9MainModelCACycfc",
+          "moduleName": "WeatherApp",
+          "implicit": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(from:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "MainModel",
+              "printedName": "WeatherApp.MainModel",
+              "usr": "s:10WeatherApp9MainModelC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Decoder",
+              "printedName": "Swift.Decoder",
+              "usr": "s:s7DecoderP"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:10WeatherApp9MainModelC4fromACs7Decoder_p_tKcfc",
+          "mangledName": "$s10WeatherApp9MainModelC4fromACs7Decoder_p_tKcfc",
+          "moduleName": "WeatherApp",
+          "implicit": true,
+          "declAttributes": [
+            "Required"
+          ],
+          "throwing": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "encode",
+          "printedName": "encode(to:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Encoder",
+              "printedName": "Swift.Encoder",
+              "usr": "s:s7EncoderP"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:10WeatherApp9MainModelC6encode2toys7Encoder_p_tKF",
+          "mangledName": "$s10WeatherApp9MainModelC6encode2toys7Encoder_p_tKF",
+          "moduleName": "WeatherApp",
+          "implicit": true,
+          "isOpen": true,
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:10WeatherApp9MainModelC",
+      "mangledName": "$s10WeatherApp9MainModelC",
+      "moduleName": "WeatherApp",
+      "isOpen": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Decodable",
+          "printedName": "Decodable",
+          "usr": "s:Se",
+          "mangledName": "$sSe"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Encodable",
+          "printedName": "Encodable",
+          "usr": "s:SE",
+          "mangledName": "$sSE"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "WeatherApp",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "CoreLocation",
+      "printedName": "CoreLocation",
+      "declKind": "Import",
+      "moduleName": "WeatherApp"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ViewController",
+      "printedName": "ViewController",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "tempLabel",
+          "printedName": "tempLabel",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "UIKit.UILabel?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@WeatherApp@objc(cs)ViewController(py)tempLabel",
+          "mangledName": "$s10WeatherApp14ViewControllerC9tempLabelSo7UILabelCSgvp",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "ReferenceOwnership",
+            "IBOutlet",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 0,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UILabel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UILabel",
+                      "printedName": "UIKit.UILabel",
+                      "usr": "c:objc(cs)UILabel"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@WeatherApp@objc(cs)ViewController(im)tempLabel",
+              "mangledName": "$s10WeatherApp14ViewControllerC9tempLabelSo7UILabelCSgvg",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UILabel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UILabel",
+                      "printedName": "UIKit.UILabel",
+                      "usr": "c:objc(cs)UILabel"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@WeatherApp@objc(cs)ViewController(im)setTempLabel:",
+              "mangledName": "$s10WeatherApp14ViewControllerC9tempLabelSo7UILabelCSgvs",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp14ViewControllerC9tempLabelSo7UILabelCSgvM",
+              "mangledName": "$s10WeatherApp14ViewControllerC9tempLabelSo7UILabelCSgvM",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "iconImage",
+          "printedName": "iconImage",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "UIKit.UIImageView?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@WeatherApp@objc(cs)ViewController(py)iconImage",
+          "mangledName": "$s10WeatherApp14ViewControllerC9iconImageSo07UIImageC0CSgvp",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "ReferenceOwnership",
+            "IBOutlet",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 1,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UIImageView?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIImageView",
+                      "printedName": "UIKit.UIImageView",
+                      "usr": "c:objc(cs)UIImageView"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@WeatherApp@objc(cs)ViewController(im)iconImage",
+              "mangledName": "$s10WeatherApp14ViewControllerC9iconImageSo07UIImageC0CSgvg",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UIImageView?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIImageView",
+                      "printedName": "UIKit.UIImageView",
+                      "usr": "c:objc(cs)UIImageView"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@WeatherApp@objc(cs)ViewController(im)setIconImage:",
+              "mangledName": "$s10WeatherApp14ViewControllerC9iconImageSo07UIImageC0CSgvs",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp14ViewControllerC9iconImageSo07UIImageC0CSgvM",
+              "mangledName": "$s10WeatherApp14ViewControllerC9iconImageSo07UIImageC0CSgvM",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "dayOfTheWeekLabel",
+          "printedName": "dayOfTheWeekLabel",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "UIKit.UILabel?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@WeatherApp@objc(cs)ViewController(py)dayOfTheWeekLabel",
+          "mangledName": "$s10WeatherApp14ViewControllerC17dayOfTheWeekLabelSo7UILabelCSgvp",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "ReferenceOwnership",
+            "IBOutlet",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 2,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UILabel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UILabel",
+                      "printedName": "UIKit.UILabel",
+                      "usr": "c:objc(cs)UILabel"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@WeatherApp@objc(cs)ViewController(im)dayOfTheWeekLabel",
+              "mangledName": "$s10WeatherApp14ViewControllerC17dayOfTheWeekLabelSo7UILabelCSgvg",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UILabel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UILabel",
+                      "printedName": "UIKit.UILabel",
+                      "usr": "c:objc(cs)UILabel"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@WeatherApp@objc(cs)ViewController(im)setDayOfTheWeekLabel:",
+              "mangledName": "$s10WeatherApp14ViewControllerC17dayOfTheWeekLabelSo7UILabelCSgvs",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp14ViewControllerC17dayOfTheWeekLabelSo7UILabelCSgvM",
+              "mangledName": "$s10WeatherApp14ViewControllerC17dayOfTheWeekLabelSo7UILabelCSgvM",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "cityTextField",
+          "printedName": "cityTextField",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "UIKit.UITextField?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@WeatherApp@objc(cs)ViewController(py)cityTextField",
+          "mangledName": "$s10WeatherApp14ViewControllerC13cityTextFieldSo06UITextG0CSgvp",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "ReferenceOwnership",
+            "IBOutlet",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 3,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UITextField?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UITextField",
+                      "printedName": "UIKit.UITextField",
+                      "usr": "c:objc(cs)UITextField"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@WeatherApp@objc(cs)ViewController(im)cityTextField",
+              "mangledName": "$s10WeatherApp14ViewControllerC13cityTextFieldSo06UITextG0CSgvg",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UITextField?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UITextField",
+                      "printedName": "UIKit.UITextField",
+                      "usr": "c:objc(cs)UITextField"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@WeatherApp@objc(cs)ViewController(im)setCityTextField:",
+              "mangledName": "$s10WeatherApp14ViewControllerC13cityTextFieldSo06UITextG0CSgvs",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp14ViewControllerC13cityTextFieldSo06UITextG0CSgvM",
+              "mangledName": "$s10WeatherApp14ViewControllerC13cityTextFieldSo06UITextG0CSgvM",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "cityNameLabel",
+          "printedName": "cityNameLabel",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "UIKit.UILabel?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@WeatherApp@objc(cs)ViewController(py)cityNameLabel",
+          "mangledName": "$s10WeatherApp14ViewControllerC13cityNameLabelSo7UILabelCSgvp",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "ReferenceOwnership",
+            "IBOutlet",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 4,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UILabel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UILabel",
+                      "printedName": "UIKit.UILabel",
+                      "usr": "c:objc(cs)UILabel"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@WeatherApp@objc(cs)ViewController(im)cityNameLabel",
+              "mangledName": "$s10WeatherApp14ViewControllerC13cityNameLabelSo7UILabelCSgvg",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UILabel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UILabel",
+                      "printedName": "UIKit.UILabel",
+                      "usr": "c:objc(cs)UILabel"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@WeatherApp@objc(cs)ViewController(im)setCityNameLabel:",
+              "mangledName": "$s10WeatherApp14ViewControllerC13cityNameLabelSo7UILabelCSgvs",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp14ViewControllerC13cityNameLabelSo7UILabelCSgvM",
+              "mangledName": "$s10WeatherApp14ViewControllerC13cityNameLabelSo7UILabelCSgvM",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "speedLabel",
+          "printedName": "speedLabel",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "UIKit.UILabel?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@WeatherApp@objc(cs)ViewController(py)speedLabel",
+          "mangledName": "$s10WeatherApp14ViewControllerC10speedLabelSo7UILabelCSgvp",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "ReferenceOwnership",
+            "IBOutlet",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 5,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UILabel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UILabel",
+                      "printedName": "UIKit.UILabel",
+                      "usr": "c:objc(cs)UILabel"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@WeatherApp@objc(cs)ViewController(im)speedLabel",
+              "mangledName": "$s10WeatherApp14ViewControllerC10speedLabelSo7UILabelCSgvg",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UILabel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UILabel",
+                      "printedName": "UIKit.UILabel",
+                      "usr": "c:objc(cs)UILabel"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@WeatherApp@objc(cs)ViewController(im)setSpeedLabel:",
+              "mangledName": "$s10WeatherApp14ViewControllerC10speedLabelSo7UILabelCSgvs",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp14ViewControllerC10speedLabelSo7UILabelCSgvM",
+              "mangledName": "$s10WeatherApp14ViewControllerC10speedLabelSo7UILabelCSgvM",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "humidityLabel",
+          "printedName": "humidityLabel",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "UIKit.UILabel?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@WeatherApp@objc(cs)ViewController(py)humidityLabel",
+          "mangledName": "$s10WeatherApp14ViewControllerC13humidityLabelSo7UILabelCSgvp",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "ReferenceOwnership",
+            "IBOutlet",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 6,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UILabel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UILabel",
+                      "printedName": "UIKit.UILabel",
+                      "usr": "c:objc(cs)UILabel"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@WeatherApp@objc(cs)ViewController(im)humidityLabel",
+              "mangledName": "$s10WeatherApp14ViewControllerC13humidityLabelSo7UILabelCSgvg",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UILabel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UILabel",
+                      "printedName": "UIKit.UILabel",
+                      "usr": "c:objc(cs)UILabel"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@WeatherApp@objc(cs)ViewController(im)setHumidityLabel:",
+              "mangledName": "$s10WeatherApp14ViewControllerC13humidityLabelSo7UILabelCSgvs",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp14ViewControllerC13humidityLabelSo7UILabelCSgvM",
+              "mangledName": "$s10WeatherApp14ViewControllerC13humidityLabelSo7UILabelCSgvM",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "weatherLabel",
+          "printedName": "weatherLabel",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "UIKit.UILabel?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@WeatherApp@objc(cs)ViewController(py)weatherLabel",
+          "mangledName": "$s10WeatherApp14ViewControllerC12weatherLabelSo7UILabelCSgvp",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "ReferenceOwnership",
+            "IBOutlet",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 7,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UILabel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UILabel",
+                      "printedName": "UIKit.UILabel",
+                      "usr": "c:objc(cs)UILabel"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@WeatherApp@objc(cs)ViewController(im)weatherLabel",
+              "mangledName": "$s10WeatherApp14ViewControllerC12weatherLabelSo7UILabelCSgvg",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UILabel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UILabel",
+                      "printedName": "UIKit.UILabel",
+                      "usr": "c:objc(cs)UILabel"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@WeatherApp@objc(cs)ViewController(im)setWeatherLabel:",
+              "mangledName": "$s10WeatherApp14ViewControllerC12weatherLabelSo7UILabelCSgvs",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp14ViewControllerC12weatherLabelSo7UILabelCSgvM",
+              "mangledName": "$s10WeatherApp14ViewControllerC12weatherLabelSo7UILabelCSgvM",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "backgroundView",
+          "printedName": "backgroundView",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "UIKit.UIView?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@WeatherApp@objc(cs)ViewController(py)backgroundView",
+          "mangledName": "$s10WeatherApp14ViewControllerC010backgroundC0So6UIViewCSgvp",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "ReferenceOwnership",
+            "IBOutlet",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 8,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UIView?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIView",
+                      "printedName": "UIKit.UIView",
+                      "usr": "c:objc(cs)UIView"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@WeatherApp@objc(cs)ViewController(im)backgroundView",
+              "mangledName": "$s10WeatherApp14ViewControllerC010backgroundC0So6UIViewCSgvg",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UIView?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIView",
+                      "printedName": "UIKit.UIView",
+                      "usr": "c:objc(cs)UIView"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@WeatherApp@objc(cs)ViewController(im)setBackgroundView:",
+              "mangledName": "$s10WeatherApp14ViewControllerC010backgroundC0So6UIViewCSgvs",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp14ViewControllerC010backgroundC0So6UIViewCSgvM",
+              "mangledName": "$s10WeatherApp14ViewControllerC010backgroundC0So6UIViewCSgvM",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "locationManadger",
+          "printedName": "locationManadger",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CLLocationManager",
+              "printedName": "CoreLocation.CLLocationManager",
+              "usr": "c:objc(cs)CLLocationManager"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10WeatherApp14ViewControllerC16locationManadgerSo17CLLocationManagerCvp",
+          "mangledName": "$s10WeatherApp14ViewControllerC16locationManadgerSo17CLLocationManagerCvp",
+          "moduleName": "WeatherApp",
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 9,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CLLocationManager",
+                  "printedName": "CoreLocation.CLLocationManager",
+                  "usr": "c:objc(cs)CLLocationManager"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp14ViewControllerC16locationManadgerSo17CLLocationManagerCvg",
+              "mangledName": "$s10WeatherApp14ViewControllerC16locationManadgerSo17CLLocationManagerCvg",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "gradientLayer",
+          "printedName": "gradientLayer",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CAGradientLayer",
+              "printedName": "QuartzCore.CAGradientLayer",
+              "usr": "c:objc(cs)CAGradientLayer"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10WeatherApp14ViewControllerC13gradientLayerSo010CAGradientF0Cvp",
+          "mangledName": "$s10WeatherApp14ViewControllerC13gradientLayerSo010CAGradientF0Cvp",
+          "moduleName": "WeatherApp",
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 10,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CAGradientLayer",
+                  "printedName": "QuartzCore.CAGradientLayer",
+                  "usr": "c:objc(cs)CAGradientLayer"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp14ViewControllerC13gradientLayerSo010CAGradientF0Cvg",
+              "mangledName": "$s10WeatherApp14ViewControllerC13gradientLayerSo010CAGradientF0Cvg",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "lat",
+          "printedName": "lat",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.Double?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10WeatherApp14ViewControllerC3latSdSgvp",
+          "mangledName": "$s10WeatherApp14ViewControllerC3latSdSgvp",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 11,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.Double?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Double",
+                      "printedName": "Swift.Double",
+                      "usr": "s:Sd"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp14ViewControllerC3latSdSgvg",
+              "mangledName": "$s10WeatherApp14ViewControllerC3latSdSgvg",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.Double?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Double",
+                      "printedName": "Swift.Double",
+                      "usr": "s:Sd"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp14ViewControllerC3latSdSgvs",
+              "mangledName": "$s10WeatherApp14ViewControllerC3latSdSgvs",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp14ViewControllerC3latSdSgvM",
+              "mangledName": "$s10WeatherApp14ViewControllerC3latSdSgvM",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "lon",
+          "printedName": "lon",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.Double?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10WeatherApp14ViewControllerC3lonSdSgvp",
+          "mangledName": "$s10WeatherApp14ViewControllerC3lonSdSgvp",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 12,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.Double?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Double",
+                      "printedName": "Swift.Double",
+                      "usr": "s:Sd"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp14ViewControllerC3lonSdSgvg",
+              "mangledName": "$s10WeatherApp14ViewControllerC3lonSdSgvg",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.Double?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Double",
+                      "printedName": "Swift.Double",
+                      "usr": "s:Sd"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp14ViewControllerC3lonSdSgvs",
+              "mangledName": "$s10WeatherApp14ViewControllerC3lonSdSgvs",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp14ViewControllerC3lonSdSgvM",
+              "mangledName": "$s10WeatherApp14ViewControllerC3lonSdSgvM",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "viewDidLoad",
+          "printedName": "viewDidLoad()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@WeatherApp@objc(cs)ViewController(im)viewDidLoad",
+          "mangledName": "$s10WeatherApp14ViewControllerC11viewDidLoadyyF",
+          "moduleName": "WeatherApp",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "viewDidLoad",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "viewWillAppear",
+          "printedName": "viewWillAppear(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@WeatherApp@objc(cs)ViewController(im)viewWillAppear:",
+          "mangledName": "$s10WeatherApp14ViewControllerC14viewWillAppearyySbF",
+          "moduleName": "WeatherApp",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "viewWillAppear:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "viewKeyboard",
+          "printedName": "viewKeyboard()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@WeatherApp@objc(cs)ViewController(im)viewKeyboard",
+          "mangledName": "$s10WeatherApp14ViewControllerC12viewKeyboardyyF",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "IBAction",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setBlueGradientBackground",
+          "printedName": "setBlueGradientBackground()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:10WeatherApp14ViewControllerC25setBlueGradientBackgroundyyF",
+          "mangledName": "$s10WeatherApp14ViewControllerC25setBlueGradientBackgroundyyF",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setGrayGradientBackground",
+          "printedName": "setGrayGradientBackground()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:10WeatherApp14ViewControllerC25setGrayGradientBackgroundyyF",
+          "mangledName": "$s10WeatherApp14ViewControllerC25setGrayGradientBackgroundyyF",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "locationManager",
+          "printedName": "locationManager(_:didUpdateLocations:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CLLocationManager",
+              "printedName": "CoreLocation.CLLocationManager",
+              "usr": "c:objc(cs)CLLocationManager"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[CoreLocation.CLLocation]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CLLocation",
+                  "printedName": "CoreLocation.CLLocation",
+                  "usr": "c:objc(cs)CLLocation"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@WeatherApp@objc(cs)ViewController(im)locationManager:didUpdateLocations:",
+          "mangledName": "$s10WeatherApp14ViewControllerC15locationManager_18didUpdateLocationsySo010CLLocationF0C_SaySo0J0CGtF",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "objc_name": "locationManager:didUpdateLocations:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "geolocationTemp",
+          "printedName": "geolocationTemp()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:10WeatherApp14ViewControllerC15geolocationTempyyF",
+          "mangledName": "$s10WeatherApp14ViewControllerC15geolocationTempyyF",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "cityTemp",
+          "printedName": "cityTemp()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:10WeatherApp14ViewControllerC8cityTempyyF",
+          "mangledName": "$s10WeatherApp14ViewControllerC8cityTempyyF",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "alert",
+          "printedName": "alert()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:10WeatherApp14ViewControllerC5alertyyF",
+          "mangledName": "$s10WeatherApp14ViewControllerC5alertyyF",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "searchCityButton",
+          "printedName": "searchCityButton(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIButton",
+              "printedName": "UIKit.UIButton",
+              "usr": "c:objc(cs)UIButton"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@WeatherApp@objc(cs)ViewController(im)searchCityButton:",
+          "mangledName": "$s10WeatherApp14ViewControllerC16searchCityButtonyySo8UIButtonCF",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "IBAction",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "gpsLocation",
+          "printedName": "gpsLocation(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIButton",
+              "printedName": "UIKit.UIButton",
+              "usr": "c:objc(cs)UIButton"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@WeatherApp@objc(cs)ViewController(im)gpsLocation:",
+          "mangledName": "$s10WeatherApp14ViewControllerC11gpsLocationyySo8UIButtonCF",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "IBAction",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(nibName:bundle:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ViewController",
+              "printedName": "WeatherApp.ViewController",
+              "usr": "c:@M@WeatherApp@objc(cs)ViewController"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Bundle?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bundle",
+                  "printedName": "Foundation.Bundle",
+                  "usr": "c:objc(cs)NSBundle"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@WeatherApp@objc(cs)ViewController(im)initWithNibName:bundle:",
+          "mangledName": "$s10WeatherApp14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+          "moduleName": "WeatherApp",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithNibName:bundle:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "WeatherApp.ViewController?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ViewController",
+                  "printedName": "WeatherApp.ViewController",
+                  "usr": "c:@M@WeatherApp@objc(cs)ViewController"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@WeatherApp@objc(cs)ViewController(im)initWithCoder:",
+          "mangledName": "$s10WeatherApp14ViewControllerC5coderACSgSo7NSCoderC_tcfc",
+          "moduleName": "WeatherApp",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "textFieldShouldReturn",
+          "printedName": "textFieldShouldReturn(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UITextField",
+              "printedName": "UIKit.UITextField",
+              "usr": "c:objc(cs)UITextField"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@CM@WeatherApp@objc(cs)ViewController(im)textFieldShouldReturn:",
+          "mangledName": "$s10WeatherApp14ViewControllerC21textFieldShouldReturnySbSo06UITextF0CF",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "objc_name": "textFieldShouldReturn:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@WeatherApp@objc(cs)ViewController",
+      "mangledName": "$s10WeatherApp14ViewControllerC",
+      "moduleName": "WeatherApp",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UIViewController",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIViewController",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "WeatherApp",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Firebase",
+      "printedName": "Firebase",
+      "declKind": "Import",
+      "moduleName": "WeatherApp"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "AppDelegate",
+      "printedName": "AppDelegate",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "application",
+          "printedName": "application(_:didFinishLaunchingWithOptions:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIApplication",
+              "printedName": "UIKit.UIApplication",
+              "usr": "c:objc(cs)UIApplication"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Dictionary",
+                  "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "LaunchOptionsKey",
+                      "printedName": "UIKit.UIApplication.LaunchOptionsKey",
+                      "usr": "c:@T@UIApplicationLaunchOptionsKey"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ProtocolComposition",
+                      "printedName": "Any"
+                    }
+                  ],
+                  "usr": "s:SD"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@WeatherApp@objc(cs)AppDelegate(im)application:didFinishLaunchingWithOptions:",
+          "mangledName": "$s10WeatherApp0B8DelegateC11application_29didFinishLaunchingWithOptionsSbSo13UIApplicationC_SDySo0j6LaunchI3KeyaypGSgtF",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "objc_name": "application:didFinishLaunchingWithOptions:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "application",
+          "printedName": "application(_:configurationForConnecting:options:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UISceneConfiguration",
+              "printedName": "UIKit.UISceneConfiguration",
+              "usr": "c:objc(cs)UISceneConfiguration"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIApplication",
+              "printedName": "UIKit.UIApplication",
+              "usr": "c:objc(cs)UIApplication"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UISceneSession",
+              "printedName": "UIKit.UISceneSession",
+              "usr": "c:objc(cs)UISceneSession"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ConnectionOptions",
+              "printedName": "UIKit.UIScene.ConnectionOptions",
+              "usr": "c:objc(cs)UISceneConnectionOptions"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@WeatherApp@objc(cs)AppDelegate(im)application:configurationForConnectingSceneSession:options:",
+          "mangledName": "$s10WeatherApp0B8DelegateC11application_26configurationForConnecting7optionsSo20UISceneConfigurationCSo13UIApplicationC_So0I7SessionCSo0I17ConnectionOptionsCtF",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "objc_name": "application:configurationForConnectingSceneSession:options:",
+          "declAttributes": [
+            "ObjC",
+            "Custom",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "application",
+          "printedName": "application(_:didDiscardSceneSessions:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIApplication",
+              "printedName": "UIKit.UIApplication",
+              "usr": "c:objc(cs)UIApplication"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Set",
+              "printedName": "Swift.Set<UIKit.UISceneSession>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UISceneSession",
+                  "printedName": "UIKit.UISceneSession",
+                  "usr": "c:objc(cs)UISceneSession"
+                }
+              ],
+              "usr": "s:Sh"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@WeatherApp@objc(cs)AppDelegate(im)application:didDiscardSceneSessions:",
+          "mangledName": "$s10WeatherApp0B8DelegateC11application_23didDiscardSceneSessionsySo13UIApplicationC_ShySo14UISceneSessionCGtF",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "objc_name": "application:didDiscardSceneSessions:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "$main",
+          "printedName": "$main()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:10WeatherApp0B8DelegateC5$mainyyFZ",
+          "mangledName": "$s10WeatherApp0B8DelegateC5$mainyyFZ",
+          "moduleName": "WeatherApp",
+          "static": true,
+          "implicit": true,
+          "declAttributes": [
+            "Final"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AppDelegate",
+              "printedName": "WeatherApp.AppDelegate",
+              "usr": "c:@M@WeatherApp@objc(cs)AppDelegate"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@WeatherApp@objc(cs)AppDelegate(im)init",
+          "mangledName": "$s10WeatherApp0B8DelegateCACycfc",
+          "moduleName": "WeatherApp",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@WeatherApp@objc(cs)AppDelegate",
+      "mangledName": "$s10WeatherApp0B8DelegateC",
+      "moduleName": "WeatherApp",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "MainType",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UIResponder",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "WeatherApp",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "NetworkManager",
+      "printedName": "NetworkManager",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "shared",
+          "printedName": "shared",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "NetworkManager",
+              "printedName": "WeatherApp.NetworkManager",
+              "usr": "s:10WeatherApp14NetworkManagerC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10WeatherApp14NetworkManagerC6sharedACvpZ",
+          "mangledName": "$s10WeatherApp14NetworkManagerC6sharedACvpZ",
+          "moduleName": "WeatherApp",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NetworkManager",
+                  "printedName": "WeatherApp.NetworkManager",
+                  "usr": "s:10WeatherApp14NetworkManagerC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp14NetworkManagerC6sharedACvgZ",
+              "mangledName": "$s10WeatherApp14NetworkManagerC6sharedACvgZ",
+              "moduleName": "WeatherApp",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "geolocationWeather",
+          "printedName": "geolocationWeather(lat:lon:result:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(WeatherApp.ModalApp?) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "WeatherApp.ModalApp?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ModalApp",
+                      "printedName": "WeatherApp.ModalApp",
+                      "usr": "s:10WeatherApp05ModalB0C"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:10WeatherApp14NetworkManagerC011geolocationA03lat3lon6resultySd_SdyAA05ModalB0CSgctF",
+          "mangledName": "$s10WeatherApp14NetworkManagerC011geolocationA03lat3lon6resultySd_SdyAA05ModalB0CSgctF",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "hetWeather",
+          "printedName": "hetWeather(city:result:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(WeatherApp.ModalApp?) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "WeatherApp.ModalApp?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ModalApp",
+                      "printedName": "WeatherApp.ModalApp",
+                      "usr": "s:10WeatherApp05ModalB0C"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:10WeatherApp14NetworkManagerC03hetA04city6resultySS_yAA05ModalB0CSgctF",
+          "mangledName": "$s10WeatherApp14NetworkManagerC03hetA04city6resultySS_yAA05ModalB0CSgctF",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:10WeatherApp14NetworkManagerC",
+      "mangledName": "$s10WeatherApp14NetworkManagerC",
+      "moduleName": "WeatherApp",
+      "isOpen": true
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "WeatherApp",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Weather",
+      "printedName": "Weather",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "description",
+          "printedName": "description",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10WeatherApp0A0C11descriptionSSSgvp",
+          "mangledName": "$s10WeatherApp0A0C11descriptionSSSgvp",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp0A0C11descriptionSSSgvg",
+              "mangledName": "$s10WeatherApp0A0C11descriptionSSSgvg",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp0A0C11descriptionSSSgvs",
+              "mangledName": "$s10WeatherApp0A0C11descriptionSSSgvs",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp0A0C11descriptionSSSgvM",
+              "mangledName": "$s10WeatherApp0A0C11descriptionSSSgvM",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "icon",
+          "printedName": "icon",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10WeatherApp0A0C4iconSSSgvp",
+          "mangledName": "$s10WeatherApp0A0C4iconSSSgvp",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp0A0C4iconSSSgvg",
+              "mangledName": "$s10WeatherApp0A0C4iconSSSgvg",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp0A0C4iconSSSgvs",
+              "mangledName": "$s10WeatherApp0A0C4iconSSSgvs",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp0A0C4iconSSSgvM",
+              "mangledName": "$s10WeatherApp0A0C4iconSSSgvM",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Weather",
+              "printedName": "WeatherApp.Weather",
+              "usr": "s:10WeatherApp0A0C"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:10WeatherApp0A0CACycfc",
+          "mangledName": "$s10WeatherApp0A0CACycfc",
+          "moduleName": "WeatherApp",
+          "implicit": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(from:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Weather",
+              "printedName": "WeatherApp.Weather",
+              "usr": "s:10WeatherApp0A0C"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Decoder",
+              "printedName": "Swift.Decoder",
+              "usr": "s:s7DecoderP"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:10WeatherApp0A0C4fromACs7Decoder_p_tKcfc",
+          "mangledName": "$s10WeatherApp0A0C4fromACs7Decoder_p_tKcfc",
+          "moduleName": "WeatherApp",
+          "implicit": true,
+          "declAttributes": [
+            "Required"
+          ],
+          "throwing": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "encode",
+          "printedName": "encode(to:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Encoder",
+              "printedName": "Swift.Encoder",
+              "usr": "s:s7EncoderP"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:10WeatherApp0A0C6encode2toys7Encoder_p_tKF",
+          "mangledName": "$s10WeatherApp0A0C6encode2toys7Encoder_p_tKF",
+          "moduleName": "WeatherApp",
+          "implicit": true,
+          "isOpen": true,
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:10WeatherApp0A0C",
+      "mangledName": "$s10WeatherApp0A0C",
+      "moduleName": "WeatherApp",
+      "isOpen": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Decodable",
+          "printedName": "Decodable",
+          "usr": "s:Se",
+          "mangledName": "$sSe"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Encodable",
+          "printedName": "Encodable",
+          "usr": "s:SE",
+          "mangledName": "$sSE"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "WeatherApp",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "WindModel",
+      "printedName": "WindModel",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "speed",
+          "printedName": "speed",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.Double?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10WeatherApp9WindModelC5speedSdSgvp",
+          "mangledName": "$s10WeatherApp9WindModelC5speedSdSgvp",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.Double?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Double",
+                      "printedName": "Swift.Double",
+                      "usr": "s:Sd"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp9WindModelC5speedSdSgvg",
+              "mangledName": "$s10WeatherApp9WindModelC5speedSdSgvg",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.Double?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Double",
+                      "printedName": "Swift.Double",
+                      "usr": "s:Sd"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp9WindModelC5speedSdSgvs",
+              "mangledName": "$s10WeatherApp9WindModelC5speedSdSgvs",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp9WindModelC5speedSdSgvM",
+              "mangledName": "$s10WeatherApp9WindModelC5speedSdSgvM",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WindModel",
+              "printedName": "WeatherApp.WindModel",
+              "usr": "s:10WeatherApp9WindModelC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:10WeatherApp9WindModelCACycfc",
+          "mangledName": "$s10WeatherApp9WindModelCACycfc",
+          "moduleName": "WeatherApp",
+          "implicit": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(from:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WindModel",
+              "printedName": "WeatherApp.WindModel",
+              "usr": "s:10WeatherApp9WindModelC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Decoder",
+              "printedName": "Swift.Decoder",
+              "usr": "s:s7DecoderP"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:10WeatherApp9WindModelC4fromACs7Decoder_p_tKcfc",
+          "mangledName": "$s10WeatherApp9WindModelC4fromACs7Decoder_p_tKcfc",
+          "moduleName": "WeatherApp",
+          "implicit": true,
+          "declAttributes": [
+            "Required"
+          ],
+          "throwing": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "encode",
+          "printedName": "encode(to:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Encoder",
+              "printedName": "Swift.Encoder",
+              "usr": "s:s7EncoderP"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:10WeatherApp9WindModelC6encode2toys7Encoder_p_tKF",
+          "mangledName": "$s10WeatherApp9WindModelC6encode2toys7Encoder_p_tKF",
+          "moduleName": "WeatherApp",
+          "implicit": true,
+          "isOpen": true,
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:10WeatherApp9WindModelC",
+      "mangledName": "$s10WeatherApp9WindModelC",
+      "moduleName": "WeatherApp",
+      "isOpen": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Decodable",
+          "printedName": "Decodable",
+          "usr": "s:Se",
+          "mangledName": "$sSe"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Encodable",
+          "printedName": "Encodable",
+          "usr": "s:SE",
+          "mangledName": "$sSE"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "WeatherApp",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Coord",
+      "printedName": "Coord",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "lon",
+          "printedName": "lon",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.Double?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10WeatherApp5CoordC3lonSdSgvp",
+          "mangledName": "$s10WeatherApp5CoordC3lonSdSgvp",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.Double?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Double",
+                      "printedName": "Swift.Double",
+                      "usr": "s:Sd"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp5CoordC3lonSdSgvg",
+              "mangledName": "$s10WeatherApp5CoordC3lonSdSgvg",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.Double?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Double",
+                      "printedName": "Swift.Double",
+                      "usr": "s:Sd"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp5CoordC3lonSdSgvs",
+              "mangledName": "$s10WeatherApp5CoordC3lonSdSgvs",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp5CoordC3lonSdSgvM",
+              "mangledName": "$s10WeatherApp5CoordC3lonSdSgvM",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "lat",
+          "printedName": "lat",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.Double?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10WeatherApp5CoordC3latSdSgvp",
+          "mangledName": "$s10WeatherApp5CoordC3latSdSgvp",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.Double?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Double",
+                      "printedName": "Swift.Double",
+                      "usr": "s:Sd"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp5CoordC3latSdSgvg",
+              "mangledName": "$s10WeatherApp5CoordC3latSdSgvg",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.Double?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Double",
+                      "printedName": "Swift.Double",
+                      "usr": "s:Sd"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp5CoordC3latSdSgvs",
+              "mangledName": "$s10WeatherApp5CoordC3latSdSgvs",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp5CoordC3latSdSgvM",
+              "mangledName": "$s10WeatherApp5CoordC3latSdSgvM",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Coord",
+              "printedName": "WeatherApp.Coord",
+              "usr": "s:10WeatherApp5CoordC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:10WeatherApp5CoordCACycfc",
+          "mangledName": "$s10WeatherApp5CoordCACycfc",
+          "moduleName": "WeatherApp",
+          "implicit": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(from:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Coord",
+              "printedName": "WeatherApp.Coord",
+              "usr": "s:10WeatherApp5CoordC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Decoder",
+              "printedName": "Swift.Decoder",
+              "usr": "s:s7DecoderP"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:10WeatherApp5CoordC4fromACs7Decoder_p_tKcfc",
+          "mangledName": "$s10WeatherApp5CoordC4fromACs7Decoder_p_tKcfc",
+          "moduleName": "WeatherApp",
+          "implicit": true,
+          "declAttributes": [
+            "Required"
+          ],
+          "throwing": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "encode",
+          "printedName": "encode(to:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Encoder",
+              "printedName": "Swift.Encoder",
+              "usr": "s:s7EncoderP"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:10WeatherApp5CoordC6encode2toys7Encoder_p_tKF",
+          "mangledName": "$s10WeatherApp5CoordC6encode2toys7Encoder_p_tKF",
+          "moduleName": "WeatherApp",
+          "implicit": true,
+          "isOpen": true,
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:10WeatherApp5CoordC",
+      "mangledName": "$s10WeatherApp5CoordC",
+      "moduleName": "WeatherApp",
+      "isOpen": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Decodable",
+          "printedName": "Decodable",
+          "usr": "s:Se",
+          "mangledName": "$sSe"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Encodable",
+          "printedName": "Encodable",
+          "usr": "s:SE",
+          "mangledName": "$sSE"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "WeatherApp",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "SceneDelegate",
+      "printedName": "SceneDelegate",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "window",
+          "printedName": "window",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UIWindow?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIWindow",
+                  "printedName": "UIKit.UIWindow",
+                  "usr": "c:objc(cs)UIWindow"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@WeatherApp@objc(cs)SceneDelegate(py)window",
+          "mangledName": "$s10WeatherApp13SceneDelegateC6windowSo8UIWindowCSgvp",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "objc_name": "window",
+          "declAttributes": [
+            "HasInitialValue",
+            "ObjC",
+            "Custom",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "UIKit.UIWindow?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIWindow",
+                      "printedName": "UIKit.UIWindow",
+                      "usr": "c:objc(cs)UIWindow"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@WeatherApp@objc(cs)SceneDelegate(im)window",
+              "mangledName": "$s10WeatherApp13SceneDelegateC6windowSo8UIWindowCSgvg",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "objc_name": "window",
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "UIKit.UIWindow?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIWindow",
+                      "printedName": "UIKit.UIWindow",
+                      "usr": "c:objc(cs)UIWindow"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@WeatherApp@objc(cs)SceneDelegate(im)setWindow:",
+              "mangledName": "$s10WeatherApp13SceneDelegateC6windowSo8UIWindowCSgvs",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "objc_name": "setWindow:",
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp13SceneDelegateC6windowSo8UIWindowCSgvM",
+              "mangledName": "$s10WeatherApp13SceneDelegateC6windowSo8UIWindowCSgvM",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "scene",
+          "printedName": "scene(_:willConnectTo:options:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIScene",
+              "printedName": "UIKit.UIScene",
+              "usr": "c:objc(cs)UIScene"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UISceneSession",
+              "printedName": "UIKit.UISceneSession",
+              "usr": "c:objc(cs)UISceneSession"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ConnectionOptions",
+              "printedName": "UIKit.UIScene.ConnectionOptions",
+              "usr": "c:objc(cs)UISceneConnectionOptions"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@WeatherApp@objc(cs)SceneDelegate(im)scene:willConnectToSession:options:",
+          "mangledName": "$s10WeatherApp13SceneDelegateC5scene_13willConnectTo7optionsySo7UISceneC_So0J7SessionCSo0J17ConnectionOptionsCtF",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "objc_name": "scene:willConnectToSession:options:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "sceneDidDisconnect",
+          "printedName": "sceneDidDisconnect(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIScene",
+              "printedName": "UIKit.UIScene",
+              "usr": "c:objc(cs)UIScene"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@WeatherApp@objc(cs)SceneDelegate(im)sceneDidDisconnect:",
+          "mangledName": "$s10WeatherApp13SceneDelegateC18sceneDidDisconnectyySo7UISceneCF",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "objc_name": "sceneDidDisconnect:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "sceneDidBecomeActive",
+          "printedName": "sceneDidBecomeActive(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIScene",
+              "printedName": "UIKit.UIScene",
+              "usr": "c:objc(cs)UIScene"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@WeatherApp@objc(cs)SceneDelegate(im)sceneDidBecomeActive:",
+          "mangledName": "$s10WeatherApp13SceneDelegateC20sceneDidBecomeActiveyySo7UISceneCF",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "objc_name": "sceneDidBecomeActive:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "sceneWillResignActive",
+          "printedName": "sceneWillResignActive(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIScene",
+              "printedName": "UIKit.UIScene",
+              "usr": "c:objc(cs)UIScene"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@WeatherApp@objc(cs)SceneDelegate(im)sceneWillResignActive:",
+          "mangledName": "$s10WeatherApp13SceneDelegateC21sceneWillResignActiveyySo7UISceneCF",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "objc_name": "sceneWillResignActive:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "sceneWillEnterForeground",
+          "printedName": "sceneWillEnterForeground(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIScene",
+              "printedName": "UIKit.UIScene",
+              "usr": "c:objc(cs)UIScene"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@WeatherApp@objc(cs)SceneDelegate(im)sceneWillEnterForeground:",
+          "mangledName": "$s10WeatherApp13SceneDelegateC24sceneWillEnterForegroundyySo7UISceneCF",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "objc_name": "sceneWillEnterForeground:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "sceneDidEnterBackground",
+          "printedName": "sceneDidEnterBackground(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIScene",
+              "printedName": "UIKit.UIScene",
+              "usr": "c:objc(cs)UIScene"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@WeatherApp@objc(cs)SceneDelegate(im)sceneDidEnterBackground:",
+          "mangledName": "$s10WeatherApp13SceneDelegateC23sceneDidEnterBackgroundyySo7UISceneCF",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "objc_name": "sceneDidEnterBackground:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "SceneDelegate",
+              "printedName": "WeatherApp.SceneDelegate",
+              "usr": "c:@M@WeatherApp@objc(cs)SceneDelegate"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@WeatherApp@objc(cs)SceneDelegate(im)init",
+          "mangledName": "$s10WeatherApp13SceneDelegateCACycfc",
+          "moduleName": "WeatherApp",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@WeatherApp@objc(cs)SceneDelegate",
+      "mangledName": "$s10WeatherApp13SceneDelegateC",
+      "moduleName": "WeatherApp",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UIResponder",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "WeatherApp",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ModalApp",
+      "printedName": "ModalApp",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "coord",
+          "printedName": "coord",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "WeatherApp.Coord?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Coord",
+                  "printedName": "WeatherApp.Coord",
+                  "usr": "s:10WeatherApp5CoordC"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10WeatherApp05ModalB0C5coordAA5CoordCSgvp",
+          "mangledName": "$s10WeatherApp05ModalB0C5coordAA5CoordCSgvp",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "WeatherApp.Coord?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Coord",
+                      "printedName": "WeatherApp.Coord",
+                      "usr": "s:10WeatherApp5CoordC"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp05ModalB0C5coordAA5CoordCSgvg",
+              "mangledName": "$s10WeatherApp05ModalB0C5coordAA5CoordCSgvg",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "WeatherApp.Coord?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Coord",
+                      "printedName": "WeatherApp.Coord",
+                      "usr": "s:10WeatherApp5CoordC"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp05ModalB0C5coordAA5CoordCSgvs",
+              "mangledName": "$s10WeatherApp05ModalB0C5coordAA5CoordCSgvs",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp05ModalB0C5coordAA5CoordCSgvM",
+              "mangledName": "$s10WeatherApp05ModalB0C5coordAA5CoordCSgvM",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "weather",
+          "printedName": "weather",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[WeatherApp.Weather]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Weather",
+                  "printedName": "WeatherApp.Weather",
+                  "usr": "s:10WeatherApp0A0C"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10WeatherApp05ModalB0C7weatherSayAA0A0CGvp",
+          "mangledName": "$s10WeatherApp05ModalB0C7weatherSayAA0A0CGvp",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[WeatherApp.Weather]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Weather",
+                      "printedName": "WeatherApp.Weather",
+                      "usr": "s:10WeatherApp0A0C"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp05ModalB0C7weatherSayAA0A0CGvg",
+              "mangledName": "$s10WeatherApp05ModalB0C7weatherSayAA0A0CGvg",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[WeatherApp.Weather]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Weather",
+                      "printedName": "WeatherApp.Weather",
+                      "usr": "s:10WeatherApp0A0C"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp05ModalB0C7weatherSayAA0A0CGvs",
+              "mangledName": "$s10WeatherApp05ModalB0C7weatherSayAA0A0CGvs",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp05ModalB0C7weatherSayAA0A0CGvM",
+              "mangledName": "$s10WeatherApp05ModalB0C7weatherSayAA0A0CGvM",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "main",
+          "printedName": "main",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "WeatherApp.MainModel?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "MainModel",
+                  "printedName": "WeatherApp.MainModel",
+                  "usr": "s:10WeatherApp9MainModelC"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10WeatherApp05ModalB0C4mainAA9MainModelCSgvp",
+          "mangledName": "$s10WeatherApp05ModalB0C4mainAA9MainModelCSgvp",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "WeatherApp.MainModel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "MainModel",
+                      "printedName": "WeatherApp.MainModel",
+                      "usr": "s:10WeatherApp9MainModelC"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp05ModalB0C4mainAA9MainModelCSgvg",
+              "mangledName": "$s10WeatherApp05ModalB0C4mainAA9MainModelCSgvg",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "WeatherApp.MainModel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "MainModel",
+                      "printedName": "WeatherApp.MainModel",
+                      "usr": "s:10WeatherApp9MainModelC"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp05ModalB0C4mainAA9MainModelCSgvs",
+              "mangledName": "$s10WeatherApp05ModalB0C4mainAA9MainModelCSgvs",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp05ModalB0C4mainAA9MainModelCSgvM",
+              "mangledName": "$s10WeatherApp05ModalB0C4mainAA9MainModelCSgvM",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "wind",
+          "printedName": "wind",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "WeatherApp.WindModel?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "WindModel",
+                  "printedName": "WeatherApp.WindModel",
+                  "usr": "s:10WeatherApp9WindModelC"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10WeatherApp05ModalB0C4windAA9WindModelCSgvp",
+          "mangledName": "$s10WeatherApp05ModalB0C4windAA9WindModelCSgvp",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "WeatherApp.WindModel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "WindModel",
+                      "printedName": "WeatherApp.WindModel",
+                      "usr": "s:10WeatherApp9WindModelC"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp05ModalB0C4windAA9WindModelCSgvg",
+              "mangledName": "$s10WeatherApp05ModalB0C4windAA9WindModelCSgvg",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "WeatherApp.WindModel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "WindModel",
+                      "printedName": "WeatherApp.WindModel",
+                      "usr": "s:10WeatherApp9WindModelC"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp05ModalB0C4windAA9WindModelCSgvs",
+              "mangledName": "$s10WeatherApp05ModalB0C4windAA9WindModelCSgvs",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp05ModalB0C4windAA9WindModelCSgvM",
+              "mangledName": "$s10WeatherApp05ModalB0C4windAA9WindModelCSgvM",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "name",
+          "printedName": "name",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10WeatherApp05ModalB0C4nameSSSgvp",
+          "mangledName": "$s10WeatherApp05ModalB0C4nameSSSgvp",
+          "moduleName": "WeatherApp",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 4,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp05ModalB0C4nameSSSgvg",
+              "mangledName": "$s10WeatherApp05ModalB0C4nameSSSgvg",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp05ModalB0C4nameSSSgvs",
+              "mangledName": "$s10WeatherApp05ModalB0C4nameSSSgvs",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10WeatherApp05ModalB0C4nameSSSgvM",
+              "mangledName": "$s10WeatherApp05ModalB0C4nameSSSgvM",
+              "moduleName": "WeatherApp",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(from:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ModalApp",
+              "printedName": "WeatherApp.ModalApp",
+              "usr": "s:10WeatherApp05ModalB0C"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Decoder",
+              "printedName": "Swift.Decoder",
+              "usr": "s:s7DecoderP"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:10WeatherApp05ModalB0C4fromACs7Decoder_p_tKcfc",
+          "mangledName": "$s10WeatherApp05ModalB0C4fromACs7Decoder_p_tKcfc",
+          "moduleName": "WeatherApp",
+          "implicit": true,
+          "declAttributes": [
+            "Required"
+          ],
+          "throwing": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "encode",
+          "printedName": "encode(to:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Encoder",
+              "printedName": "Swift.Encoder",
+              "usr": "s:s7EncoderP"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:10WeatherApp05ModalB0C6encode2toys7Encoder_p_tKF",
+          "mangledName": "$s10WeatherApp05ModalB0C6encode2toys7Encoder_p_tKF",
+          "moduleName": "WeatherApp",
+          "implicit": true,
+          "isOpen": true,
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:10WeatherApp05ModalB0C",
+      "mangledName": "$s10WeatherApp05ModalB0C",
+      "moduleName": "WeatherApp",
+      "isOpen": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Decodable",
+          "printedName": "Decodable",
+          "usr": "s:Se",
+          "mangledName": "$sSe"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Encodable",
+          "printedName": "Encodable",
+          "usr": "s:SE",
+          "mangledName": "$sSE"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "String",
+      "printedName": "String",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "localization",
+          "printedName": "localization()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:SS10WeatherAppE12localizationSSyF",
+          "mangledName": "$sSS10WeatherAppE12localizationSSyF",
+          "moduleName": "WeatherApp",
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:SS",
+      "mangledName": "$sSS",
+      "moduleName": "Swift",
+      "declAttributes": [
+        "Frozen"
+      ],
+      "isExternal": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Decodable",
+          "printedName": "Decodable",
+          "usr": "s:Se",
+          "mangledName": "$sSe"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Encodable",
+          "printedName": "Encodable",
+          "usr": "s:SE",
+          "mangledName": "$sSE"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CodingKeyRepresentable",
+          "printedName": "CodingKeyRepresentable",
+          "usr": "s:s22CodingKeyRepresentableP",
+          "mangledName": "$ss22CodingKeyRepresentableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_HasContiguousBytes",
+          "printedName": "_HasContiguousBytes",
+          "usr": "s:s19_HasContiguousBytesP",
+          "mangledName": "$ss19_HasContiguousBytesP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomReflectable",
+          "printedName": "CustomReflectable",
+          "usr": "s:s17CustomReflectableP",
+          "mangledName": "$ss17CustomReflectableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_CustomPlaygroundQuickLookable",
+          "printedName": "_CustomPlaygroundQuickLookable",
+          "usr": "s:s30_CustomPlaygroundQuickLookableP",
+          "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "TextOutputStream",
+          "printedName": "TextOutputStream",
+          "usr": "s:s16TextOutputStreamP",
+          "mangledName": "$ss16TextOutputStreamP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "TextOutputStreamable",
+          "printedName": "TextOutputStreamable",
+          "usr": "s:s20TextOutputStreamableP",
+          "mangledName": "$ss20TextOutputStreamableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_ExpressibleByBuiltinUnicodeScalarLiteral",
+          "printedName": "_ExpressibleByBuiltinUnicodeScalarLiteral",
+          "usr": "s:s41_ExpressibleByBuiltinUnicodeScalarLiteralP",
+          "mangledName": "$ss41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
+          "printedName": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
+          "usr": "s:s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP",
+          "mangledName": "$ss51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_ExpressibleByBuiltinStringLiteral",
+          "printedName": "_ExpressibleByBuiltinStringLiteral",
+          "usr": "s:s34_ExpressibleByBuiltinStringLiteralP",
+          "mangledName": "$ss34_ExpressibleByBuiltinStringLiteralP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ExpressibleByStringLiteral",
+          "printedName": "ExpressibleByStringLiteral",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "StringLiteralType",
+              "printedName": "StringLiteralType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s26ExpressibleByStringLiteralP",
+          "mangledName": "$ss26ExpressibleByStringLiteralP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ExpressibleByExtendedGraphemeClusterLiteral",
+          "printedName": "ExpressibleByExtendedGraphemeClusterLiteral",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "ExtendedGraphemeClusterLiteralType",
+              "printedName": "ExtendedGraphemeClusterLiteralType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s43ExpressibleByExtendedGraphemeClusterLiteralP",
+          "mangledName": "$ss43ExpressibleByExtendedGraphemeClusterLiteralP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ExpressibleByUnicodeScalarLiteral",
+          "printedName": "ExpressibleByUnicodeScalarLiteral",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "UnicodeScalarLiteralType",
+              "printedName": "UnicodeScalarLiteralType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s33ExpressibleByUnicodeScalarLiteralP",
+          "mangledName": "$ss33ExpressibleByUnicodeScalarLiteralP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "BidirectionalCollection",
+          "printedName": "BidirectionalCollection",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Element",
+              "printedName": "Element",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Character",
+                  "printedName": "Swift.Character",
+                  "usr": "s:SJ"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Index",
+              "printedName": "Index",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Index",
+                  "printedName": "Swift.String.Index",
+                  "usr": "s:SS5IndexV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SubSequence",
+              "printedName": "SubSequence",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Substring",
+                  "printedName": "Swift.Substring",
+                  "usr": "s:Ss"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Indices",
+              "printedName": "Indices",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "DefaultIndices",
+                  "printedName": "Swift.DefaultIndices<Swift.String>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:SI"
+                }
+              ]
+            }
+          ],
+          "usr": "s:SK",
+          "mangledName": "$sSK"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Collection",
+          "printedName": "Collection",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Element",
+              "printedName": "Element",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Character",
+                  "printedName": "Swift.Character",
+                  "usr": "s:SJ"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Index",
+              "printedName": "Index",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Index",
+                  "printedName": "Swift.String.Index",
+                  "usr": "s:SS5IndexV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Iterator",
+              "printedName": "Iterator",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Iterator",
+                  "printedName": "Swift.String.Iterator",
+                  "usr": "s:SS8IteratorV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SubSequence",
+              "printedName": "SubSequence",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Substring",
+                  "printedName": "Swift.Substring",
+                  "usr": "s:Ss"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Indices",
+              "printedName": "Indices",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "DefaultIndices",
+                  "printedName": "Swift.DefaultIndices<Swift.String>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:SI"
+                }
+              ]
+            }
+          ],
+          "usr": "s:Sl",
+          "mangledName": "$sSl"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sequence",
+          "printedName": "Sequence",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Element",
+              "printedName": "Element",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Character",
+                  "printedName": "Swift.Character",
+                  "usr": "s:SJ"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Iterator",
+              "printedName": "Iterator",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Iterator",
+                  "printedName": "Swift.String.Iterator",
+                  "usr": "s:SS8IteratorV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:ST",
+          "mangledName": "$sST"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Comparable",
+          "printedName": "Comparable",
+          "usr": "s:SL",
+          "mangledName": "$sSL"
+        },
+        {
+          "kind": "Conformance",
+          "name": "StringProtocol",
+          "printedName": "StringProtocol",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "UTF8View",
+              "printedName": "UTF8View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UTF8View",
+                  "printedName": "Swift.String.UTF8View",
+                  "usr": "s:SS8UTF8ViewV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "UTF16View",
+              "printedName": "UTF16View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UTF16View",
+                  "printedName": "Swift.String.UTF16View",
+                  "usr": "s:SS9UTF16ViewV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "UnicodeScalarView",
+              "printedName": "UnicodeScalarView",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UnicodeScalarView",
+                  "printedName": "Swift.String.UnicodeScalarView",
+                  "usr": "s:SS17UnicodeScalarViewV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SubSequence",
+              "printedName": "SubSequence",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Substring",
+                  "printedName": "Swift.Substring",
+                  "usr": "s:Ss"
+                }
+              ]
+            }
+          ],
+          "usr": "s:Sy",
+          "mangledName": "$sSy"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ExpressibleByStringInterpolation",
+          "printedName": "ExpressibleByStringInterpolation",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "StringInterpolation",
+              "printedName": "StringInterpolation",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "DefaultStringInterpolation",
+                  "printedName": "Swift.DefaultStringInterpolation",
+                  "usr": "s:s26DefaultStringInterpolationV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s32ExpressibleByStringInterpolationP",
+          "mangledName": "$ss32ExpressibleByStringInterpolationP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "LosslessStringConvertible",
+          "printedName": "LosslessStringConvertible",
+          "usr": "s:s25LosslessStringConvertibleP",
+          "mangledName": "$ss25LosslessStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "RangeReplaceableCollection",
+          "printedName": "RangeReplaceableCollection",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "SubSequence",
+              "printedName": "SubSequence",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Substring",
+                  "printedName": "Swift.Substring",
+                  "usr": "s:Ss"
+                }
+              ]
+            }
+          ],
+          "usr": "s:Sm",
+          "mangledName": "$sSm"
+        },
+        {
+          "kind": "Conformance",
+          "name": "MirrorPath",
+          "printedName": "MirrorPath",
+          "usr": "s:s10MirrorPathP",
+          "mangledName": "$ss10MirrorPathP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_ObjectiveCBridgeable",
+          "printedName": "_ObjectiveCBridgeable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "_ObjectiveCType",
+              "printedName": "_ObjectiveCType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSString",
+                  "printedName": "Foundation.NSString",
+                  "usr": "c:objc(cs)NSString"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s21_ObjectiveCBridgeableP",
+          "mangledName": "$ss21_ObjectiveCBridgeableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

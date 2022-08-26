@@ -1,0 +1,14 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "bd7186253519f14264cf3a226e8a870352e5fec17e022d1e9538742d0c3a3940"
+build_start_time: [1661321170, 179587841]
+build_end_time: [1661321171, 393193960]
+inputs:
+  "/Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/WeatherApp/AppDelegate.swift": [1660532998, 861924648]
+  "/Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/WeatherApp/Model/Coord.swift": [1660040807, 814632892]
+  "/Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/WeatherApp/Model/MainModel.swift": [1659945735, 9086847]
+  "/Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/WeatherApp/Model/ModalApp.swift": [1660043511, 214750766]
+  "/Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/WeatherApp/Model/Weather.swift": [1661228719, 623185157]
+  "/Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/WeatherApp/Model/WindModel.swift": [1659957572, 966833353]
+  "/Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/WeatherApp/NetworkManager.swift": [1660712129, 545350790]
+  "/Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/WeatherApp/SceneDelegate.swift": [1659933074, 981734514]
+  "/Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/WeatherApp/ViewController.swift": [1661321169, 156966686]

@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  WeatherApp
+
+  Created by Yashin Zahar on 11.08.2022.
+  
+*/
+
+"Demo Label" = "Демо Метка";
+"Temp" = "Температура";
+"Wing" = "Ветер";
+"Humidity" = "Влажность";

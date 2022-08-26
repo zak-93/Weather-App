@@ -1,0 +1,46 @@
+dependencies: \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/GDTCORMetricsController.m \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/build/Pods.build/Debug-iphonesimulator/GoogleDataTransport.build/module.modulemap \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Private/GDTCORMetricsController.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Internal/GDTCORMetricsControllerProtocol.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Internal/GDTCOREventDropReason.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Internal/GDTCORStorageProtocol.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Internal/GDTCORLifecycle.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Internal/GDTCORPlatform.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Internal/GDTCORStorageEventSelector.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Public/GoogleDataTransport/GDTCORTargets.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Internal/GDTCORStorageSizeBytes.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromises.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/build/Pods.build/Debug-iphonesimulator/PromisesObjC.build/module.modulemap \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Wrap.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Validate.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Timeout.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Then.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Testing.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Retry.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Reduce.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Recover.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Race.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Do.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Delay.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Catch.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Await.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Async.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Any.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Always.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromiseError.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+All.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/Target\ Support\ Files/PromisesObjC/PromisesObjC-umbrella.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Public/GoogleDataTransport/GDTCORConsoleLogger.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Public/GoogleDataTransport/GDTCOREvent.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Public/GoogleDataTransport/GDTCOREventDataObject.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Internal/GDTCORRegistrar.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Internal/GDTCORUploader.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Public/GoogleDataTransport/GDTCORClock.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Private/GDTCORFlatFileStorage+Promises.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Private/GDTCORFlatFileStorage.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Private/GDTCORLogSourceMetrics.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Private/GDTCORMetrics.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Private/GDTCORMetricsMetadata.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Private/GDTCORStorageMetadata.h

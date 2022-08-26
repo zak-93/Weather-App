@@ -1,0 +1,27 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "770f1554c2c735f91716dab5a25cd24e557de89cbd88c3c88debee899be14c50"
+build_start_time: [1660532636, 695887088]
+build_end_time: [1660532637, 736308097]
+inputs:
+  ? "/Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/Heartbeat.swift"
+  : [1660532431, 720768690]
+  ? "/Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatController.swift"
+  : [1660532431, 721056222]
+  ? "/Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatStorage.swift"
+  : [1660532431, 721230268]
+  ? "/Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatsBundle.swift"
+  : [1660532431, 721345424]
+  ? "/Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatsPayload.swift"
+  : [1660532431, 721520423]
+  ? "/Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/RingBuffer.swift"
+  : [1660532431, 720876693]
+  ? "/Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/Storage.swift"
+  : [1660532431, 720653533]
+  ? "/Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/StorageFactory.swift"
+  : [1660532431, 721602439]
+  ? "/Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/WeakContainer.swift"
+  : [1660532431, 721429824]
+  ? "/Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/_ObjC_HeartbeatController.swift"
+  : [1660532431, 720969676]
+  ? "/Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/_ObjC_HeartbeatsPayload.swift"
+  : [1660532431, 721141338]

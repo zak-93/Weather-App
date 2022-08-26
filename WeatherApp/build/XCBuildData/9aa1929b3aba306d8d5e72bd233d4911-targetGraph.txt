@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Pods-WeatherApp in Pods, no dependencies
+WeatherApp in WeatherApp, depends on:
+Pods-WeatherApp in Pods (implicit dependency via file 'Pods_WeatherApp.framework' in build phase 'Link Binary')

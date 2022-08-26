@@ -1,0 +1,15 @@
+
+/* Class = "UIButton"; configuration.title = "My location"; ObjectID = "WC9-aa-cxL"; */
+"WC9-aa-cxL.configuration.title" = "Текущее место";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "WC9-aa-cxL"; */
+"WC9-aa-cxL.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "City"; ObjectID = "gpv-Jm-CX4"; */
+"gpv-Jm-CX4.placeholder" = "Город";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "uMe-DL-o9P"; */
+"uMe-DL-o9P.normalTitle" = "Button";
+
+
+

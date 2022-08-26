@@ -1,0 +1,33 @@
+dependencies: \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/FirebaseCore/FirebaseCore/Sources/FIRHeartbeatInfo.m \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/build/Pods.build/Debug-iphonesimulator/FirebaseCore.build/module.modulemap \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/FirebaseCore/FirebaseCore/Extension/FIRHeartbeatInfo.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/build/Pods.build/Debug-iphonesimulator/GoogleUtilities.build/module.modulemap \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleUtilities/GoogleUtilities/UserDefaults/Public/GoogleUtilities/GULUserDefaults.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleUtilities/GoogleUtilities/Reachability/Public/GoogleUtilities/GULReachabilityChecker.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleUtilities/GoogleUtilities/Network/Public/GoogleUtilities/GULNetworkURLSession.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleUtilities/GoogleUtilities/Network/Public/GoogleUtilities/GULNetworkMessageCode.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleUtilities/GoogleUtilities/Network/Public/GoogleUtilities/GULNetworkLoggerProtocol.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleUtilities/GoogleUtilities/Network/Public/GoogleUtilities/GULNetworkConstants.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleUtilities/GoogleUtilities/Network/Public/GoogleUtilities/GULNetwork.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleUtilities/GoogleUtilities/Network/Public/GoogleUtilities/GULMutableDictionary.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleUtilities/GoogleUtilities/NSData+zlib/Public/GoogleUtilities/GULNSData+zlib.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleUtilities/GoogleUtilities/MethodSwizzler/Public/GoogleUtilities/GULSwizzler.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleUtilities/GoogleUtilities/MethodSwizzler/Public/GoogleUtilities/GULOriginalIMPConvenienceMacros.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleUtilities/GoogleUtilities/Logger/Public/GoogleUtilities/GULLoggerLevel.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleUtilities/GoogleUtilities/Logger/Public/GoogleUtilities/GULLogger.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/NSURLSession+GULPromises.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULURLSessionDataResponse.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULSecureCoding.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULKeychainUtils.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULKeychainStorage.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULHeartbeatDateStorageUserDefaults.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULHeartbeatDateStorage.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULHeartbeatDateStorable.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULAppEnvironmentUtil.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleUtilities/GoogleUtilities/AppDelegateSwizzler/Public/GoogleUtilities/GULSceneDelegateSwizzler.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleUtilities/GoogleUtilities/AppDelegateSwizzler/Public/GoogleUtilities/GULApplication.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/GoogleUtilities/GoogleUtilities/AppDelegateSwizzler/Public/GoogleUtilities/GULAppDelegateSwizzler.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/Target\ Support\ Files/GoogleUtilities/GoogleUtilities-umbrella.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/FirebaseCore/FirebaseCore/Extension/FIRAppInternal.h \
+  /Users/zaharyasshin/Desktop/Developer/NewLesson/WeatherApp/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRApp.h
